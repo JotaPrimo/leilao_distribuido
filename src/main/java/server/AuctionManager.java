@@ -26,7 +26,7 @@ public class AuctionManager {
     /** Valor minimo inicial do leilao padrao. */
     public static final double DEFAULT_MINIMUM_BID = 1500.00;
     /** Duracao padrao do leilao em segundos. */
-    public static final int DEFAULT_DURATION_SECONDS = 60;
+    public static final int DEFAULT_DURATION_SECONDS = 300;
 
     /** Instancia unica usada pela aplicacao principal em linha de comando. */
     private static final AuctionManager INSTANCE = new AuctionManager();
