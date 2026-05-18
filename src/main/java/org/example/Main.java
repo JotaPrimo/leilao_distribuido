@@ -1,16 +1,21 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+/**
+ * Classe de exemplo criada pelo template do projeto.
+ *
+ * O sistema de leilao nao usa esta classe. Para executar a aplicacao real,
+ * rode server.AuctionServer como servidor e client.AuctionClient como cliente.
+ */
 public class Main {
+    /**
+     * Imprime uma mensagem simples de exemplo.
+     *
+     * @param args argumentos de linha de comando nao utilizados
+     */
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
         System.out.printf("Hello and welcome!");
 
         for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
         }
     }
